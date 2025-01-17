@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Membership</title>
+	<link rel="stylesheet" type="text/css">
+
+<style>
+	.container1{
+	background-color: #68207a;
+	width: 290px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	margin: auto;
+	border: 4px dotted white;
+}
+
+.form1{
+	background-color: #68207a;
+	width: 230px;
+	height: 550px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	margin: auto;
+	padding: 30px;
+	border: 4px dashed white;
+}
+
+#submit{
+	background-color: #e5f2e1;
+	color: #dbabb6;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+label {
+	font-weight: bold;
+}
+
+body {
+	background-image: url('https://img.freepik.com/free-photo/ingredients-near-pizza_23-2147772081.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+</style>
+
+</head>
+<body>
+ 
+<div class="container1">
+	<h2><center><span style="color:#e1f571; font-family: Consolas;">Please Leave A Comment</span></center></h2>
+</div>
+<br><br>
+
+<div class="form1">
+	<form action="">
+		<style type="text/css" color="#e1f571"></style>
+
+		<label for="fname">First Name:</label>
+		<br>
+		<input type="text" id="name" name="name" required>
+		<br><br>
+		<label for="lname">Last Name:</label>
+		<br>
+		<input type="text" id="name" name="name" required>
+		<br><br>
+		<label for="age">Age:</label>
+		<br>
+		<input type="number" id="age" name="age" required>
+		<br><br>
+		<label for="age">Are you an __</label>
+		<br>
+		<input type="radio" id="adult" name="age" required>
+		<label for="adult">Adult</label>
+		<br>
+		<input type="radio" id="child" name="age" required>
+		<label for="child">Child</label>
+		<br><br>
+		<label for="cuisine">Please Give a Rating</label>
+		<br>
+			<select id="cuisine" name="cuisine">
+			<option value= "star">1 Stars</option>
+			<option value= "star">2 Stars</option>
+			<option value= "star">3 Stars</option>
+			<option value= "star">4 Stars</option>
+			<option value= "star">5 Stars</option>
+		</select>
+		<br><br>
+		<label for="club">Please give some suggestions for future improvments.</label>
+		<br>
+		<textarea rows="4" cols="30" placeholder="Type your answer here..."></textarea>
+
+		<br><br>
+		<input type="submit" id="submit" name="submit" value="Thank you!">
+</div>
+	</form>
+	</body>
+</html>
